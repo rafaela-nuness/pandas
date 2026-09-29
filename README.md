@@ -1,17 +1,28 @@
-# Projeto Flask
+# 🐍 Projeto Web com Flask
 
-Uma aplicação web simples desenvolvida em Python utilizando o framework [Flask](https://flask.palletsprojects.com/).
+Este é um projeto web simples desenvolvido em Python com o framework **Flask**. O objetivo desta aplicação é servir como base para praticar rotas, renderização de páginas e manipulação de requisições web.
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Sobre o Projeto
 
-Siga os passos abaixo no seu terminal (PowerShell) para clonar, configurar e rodar a aplicação localmente:
+A aplicação consiste em um servidor web local que processa requisições HTTP e entrega respostas dinâmicas no navegador.
 
-### 1. Pré-requisitos
-Certifique-se de ter o **Python** e o **Git** instalados na sua máquina.
+### ⚙️ Funcionalidades Principais:
+- Server HTTP leve rodando localmente (`http://127.0.0.1:5000`).
+- Rotas personalizadas para exibição de páginas ou respostas JSON.
+- Módulo de desenvolvimento ativado com *debug mode* para atualização em tempo real.
 
-### 2. Clonar o Repositório
-```bash
-git clone [https://github.com/rafaela-nuness/flask3.git](https://github.com/rafaela-nuness/flask3.git)
-cd flask3
+---
+
+##  Estrutura do Projeto
+
+```text
+flask3/
+├── Flask/
+│   ├── .venv/            # Ambiente virtual de dependências
+│   ├── static/           # Arquivos estáticos (CSS, JS, Imagens)
+│   ├── templates/        # Arquivos HTML renderizados pelas rotas
+│   └── app.py            # Script principal do servidor Flask
+├── .gitignore            # Arquivos ignorados pelo Git
+└── README.md             # Documentação do projeto
